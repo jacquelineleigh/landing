@@ -1,0 +1,72 @@
+.container{
+	margin: 1.0px auto;
+	width: 500x;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+.container{text-align: center;}
+
+		.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  background-color: lightpurple;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  margin: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.flex-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.flex-content {
+  text-align: left;
+}
+
+.flex-title {
+  color: #9c5fc3;
+  font-size: 24px;
+  margin: 0;
+}
+
+.flex-text {
+  color: gray;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+#container2 {background-color: white;
+display: flow;
+text-align: center;
+margin: 5px; 
+border-radius: 5px}

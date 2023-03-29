@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Edu+NSW+ACT+Foundation:wght@600&family=Lora:ital,wght@0,400;1,500&family=Playfair+Display:ital,wght@0,500;1,500&display=swap');
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+
+
+body{ 
+	font-family: 'Playfair Display', serif,;
+	font-size: 20px;
+	background-color: #abbed1;
+	color:black;
+	text-align: center;}
+	
+h2,h3{ 
+	font-family: 'Playfair Display', serif,;
+	font-style: italic;
+	font-size:30px;}
+
+h1{
+	font-size: 60px ;
+	font-family: 'Playfair Display', serif,}
+
+.banner{
+	background-image:url(../images/banner.jpg);
+	color: black;
+	background-size: cover;
+	background-position: center;
+	margin: 0px auto;
+	text-transform: uppercase;
+	opacity: .8;
+	border-radius: 5px;
+	text-align: center;
+	padding: 100px 0px}
+
+
+
+		.typeform {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 500px;}
+
+		.typeform iframe {
+			height: 100%;
+			width: 100%;}
+.image-container {
+  display: flex;
+  align-items: flex-start;}
+
+
+
+
+		
